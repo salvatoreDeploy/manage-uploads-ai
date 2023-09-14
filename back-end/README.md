@@ -8,3 +8,8 @@
 - Prisma ORM
 - SQLite
 - Fastify-Multiparti
+- Fs
+- Path
+- Cripto
+- Zod
+- Dotenv
