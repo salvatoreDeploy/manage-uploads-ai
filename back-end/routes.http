@@ -26,3 +26,16 @@ Content-Type: application/json
 {
   "prompt": "Futebol, jogador sem vegonha, time quase rebaixado"
 }
+
+###
+
+# @name generate-ai-completion
+
+POST http://localhost:3333/ia/generate
+Content-Type: application/json
+
+{
+  "videoId": "f1e03a2d-a07e-4566-84d4-724c6e3917aa",
+  "template": "Gere um resumo sucinto da transcrição do video informada a seguir: '''{transcription}''' ",
+  "temperature": 0.5
+}
