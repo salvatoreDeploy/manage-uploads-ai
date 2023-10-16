@@ -20,11 +20,11 @@ Content-Type: audio/mpeg
 
 # @name create-transcription
 
-POST http://localhost:3333/videos/f1e03a2d-a07e-4566-84d4-724c6e3917aa/transcription
+POST http://localhost:3333/video/b74ed63d-9c25-4222-94ee-345debadae99/transcription
 Content-Type: application/json
 
 {
-  "prompt": "Futebol, jogador sem vegonha, time quase rebaixado"
+  "prompt": "explique componentes"
 }
 
 ###
@@ -36,6 +36,6 @@ Content-Type: application/json
 
 {
   "videoId": "f1e03a2d-a07e-4566-84d4-724c6e3917aa",
-  "template": "Gere um resumo sucinto da transcrição do video informada a seguir: '''{transcription}''' ",
+  "prompt": "Gere um resumo sucinto da transcrição do video informada a seguir: '''{transcription}''' ",
   "temperature": 0.5
 }
